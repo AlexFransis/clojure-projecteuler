@@ -40,3 +40,9 @@
   "Takes a number and returns a list of all its digits"
   [n]
   (map #(Integer/parseInt (str %)) (str n)))
+
+
+(defn square
+  "Returns the square of the number"
+  [n]
+  (* n n))
